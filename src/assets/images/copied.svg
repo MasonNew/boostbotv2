@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 75" width="75" height="75">
+	<title>copied</title>
+	<defs>
+		<image  width="75" height="55" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAA3AQMAAAB+YCUTAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAA////pdmf3QAAAAJ0Uk5TAP9bkSK1AAABA0lEQVR4nEXQQY6CQBCF4SowgcQFuJ8ErjAXsL3KHIETtB7FI7h0h95iFsaYuDXG1TiJgXmvpHrY8JHAX9WoTFfxq86qS2y2ieGf8StxvDh1ODjz18ZZPNVZ3TNnc5o5w750xq52jpdWU3alKbvWlBVNWSeyTmSdyDqRncjsRGYTcdePKyf8ZODyyAm3GRg3nPBdgiM+kLCrSWTwP1oScbFntZED31IuYllRrmdZUS5tWVEexbKi3MSyotzPstgMYcuCsVtYFgz7uWXB5jS3LFjdF5YFi2drWTB/9Z/1mzoI9yRlFMuScW1ZMvTTL8Jxz5nzva2xeJTO/FY79dw6pbes/AEdeF9YgRC3SAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="11"/>
+</svg>

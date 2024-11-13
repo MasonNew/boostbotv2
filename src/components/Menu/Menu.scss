@@ -1,0 +1,185 @@
+@import "../../styles/variables.scss";
+@import "../../styles/responsive.scss";
+
+.menu {
+  .item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+
+    .title {
+      font-size: 12px;
+      font-weight: 200;
+      color: $soft-color;
+      text-transform: uppercase;
+
+      @include lg {
+        display: none;
+      }
+    }
+
+    .listItem {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px;
+      border-radius: 5px;
+
+      &:hover {
+        background-color: $soft-bg;
+      }
+
+      // .listItemTitle {
+      //   @include lg {
+      //     display: none;
+      //   }
+      // }
+    }
+  }
+  .side-divider {
+    margin-top: 10px;
+    border-top: 1px solid #384256;
+  }
+  .side-list {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 16px;
+    line-height: 1.5;
+    list-style: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    position: relative;
+    overflow: auto;
+    height: calc(100vh - 388px);
+  }
+
+  .side-token-box {
+    padding: 4px 8px;
+    // background: #2b3346;
+  }
+
+  .side-social {
+    border-top: 1px solid #384256;
+    padding-top: 10px;
+    background: #202938;
+  }
+
+  .token-logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+  }
+
+  .token-logo-box {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px 8px;
+    cursor: pointer;
+  }
+
+  .token-logo-box:hover {
+    color: #199f72;
+  }
+
+  .selected {
+    color: #199f72 !important;
+  }
+
+  .wallet-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0px;
+    border: 0px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    text-transform: uppercase;
+    min-width: 64px;
+    max-width: 256px;
+    height: 40px;
+    padding: 6px 16px;
+    border-radius: 8px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: rgb(255, 255, 255);
+    background-color: rgb(20, 27, 45);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px,
+      rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+    width: 100%;
+  }
+
+  .wallet-button:hover {
+    background: #ffffff14;
+  }
+
+  .wallet-button:disabled {
+    cursor: not-allowed;
+    background: rgba(255, 255, 255, 0.12);
+  }
+
+  .btn-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    outline: none;
+    outline: none;
+    position: relative;
+    font-weight: 400;
+    white-space: nowrap;
+    text-align: center;
+    background-image: none;
+    background: transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    user-select: none;
+    touch-action: manipulation;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 16px;
+    line-height: 1.5;
+    height: 32px;
+    border-radius: 6px;
+  }
+
+  .btn-icon:hover {
+    color: rgba(255, 255, 255, 0.85);
+    background: rgba(255, 255, 255, 0.12);
+  }
+
+  .token-loading {
+    opacity: 0.5;
+  }
+
+  .logo-text {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  }
+
+  .listItemTitle {
+    cursor: pointer;
+  }
+
+  .listItemTitle:hover {
+    opacity: 0.6;
+  }
+}

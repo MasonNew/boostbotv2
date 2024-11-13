@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="26" height="22">
+	<title>hamburgerClose-svg</title>
+	<defs>
+		<image  width="16" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAAXNSR0IB2cksfwAAAC1QTFRFAAAA8LgKAAAA77gK8LgJ8LkL77gK77cK8LgK77gL77gK7rcJ8LcJ77gK77gKwCv7WwAAAA90Uk5TAJcBnYj/k4CWj6GLh4F+YbWCQQAAAItJREFUeJxjZOT/wMDAoMzP6Cq4ioGByViOsfQB9wIGZSNmRnY/xlUMpgrcjAxAoRW+jKsYGYBC+he4FzAyAIUYgLJABrsfA1A9kMHpw8A7D8SYeoCB9dgDRqAAm9QD3zhGhqMTosP9WI8x8niyLQVq9GW82hAdANTIylj6bCnQ9tLHjLyXFYAM9p0Ahs4hgu87RBQAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>
